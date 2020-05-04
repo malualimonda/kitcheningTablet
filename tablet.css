@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    width: auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../images/bg-body.png);
+}
+.container{
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 768px;
+  min-width: 768px;
+}
+
+@media (min-width:768px){
+
+    .banner img{
+     margin: 10px;
+     width: 90%;
+     position: relative;
+     left: 30px
+            
+     }
+ 
+  .logo{
+      border-radius: 50%;
+      position: relative;
+      left: 316px;
+  }
+  .main-nav a{
+      color: white;
+     
+  }
+     
+  .main-nav li{
+     background-color: #545453;
+     font-family: verdana;
+     font-size: 14px;
+     text-transform: uppercase;
+     padding: 10px;
+     float: left;
+     margin: 5px;
+     width: 87px;
+     text-align: center;
+     position: relative;
+     left: 35px;
+      
+  }
+ 
+    .product{
+      position: relative;
+       left: 25px;
+      float: left;
+      width: 45%;
+     margin-left: 15px;     
+     }
+    .photo{
+        width: 95%;
+        position: relative;
+        left: 1px;
+        
+    }
+     
+ .special{
+     position: absolute;
+     right: 30px;
+
+ }
+ .zoom{
+    position: absolute;
+    width: 95%;
+    background-color:black;
+    bottom: 200px;
+    left: 1px;
+    text-align: center;
+    opacity: 0.5;
+     
+ }
+  a{
+     color: white;
+     text-transform: uppercase;
+     font-family: verdana;
+       
+    }
+    
+    h2, p{
+      width: 80%;
+     font-family: verdana;
+        font-size: 16px;
+
+    }
+    
+    .more{
+     background-color: #545453;
+     font-family: verdana;
+     font-size: 14px;
+     text-transform: uppercase;
+     padding: 8px;
+     float: left;
+     margin: 10px;
+     text-align: center;
+     position: relative;
+     left: -8px;
+   
+    }
+    
+    .main-footer{
+     font-family: verdana;
+     font-size: 14px;
+     text-transform: uppercase;
+     padding: 10px;
+     float: left;
+     text-align: center;
+     position: relative;
+     left: 30px;
+      margin: 10px;
+     width: 87%;
+       
+    }
+    .main-footer li{
+        width: 100%;
+        margin: 5px;
+        margin-left: -8px;
+         background-color: #545453;
+        padding: 8px;
+        
+    }
+ 
+ }
+ }
